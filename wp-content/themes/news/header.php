@@ -106,7 +106,7 @@
 						<a href="<?php echo home_url( '/' ) ?>">
 							<!-- <img src="images/logos/logo.png" alt=""> -->
 							<!-- <img src="https://front.un-arm.org/img/unoda-en.png"> -->
-							<img src="<?php bloginfo('stylesheet_directory');?>/assets/images/logos/logo-official1.png">
+							<img src="<?php bloginfo('stylesheet_directory');?>/assets/images/logos/logo.png">
 						</a>
 					</div>
 				</div><!-- logo col end -->
