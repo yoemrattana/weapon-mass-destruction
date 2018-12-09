@@ -37,6 +37,14 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Hanuman" rel="stylesheet">
 
+	<!-- video gallery plugin -->
+	
+	
+
+	<link rel='stylesheet' href='<?php bloginfo('stylesheet_directory');?>/assets/unitegallery/css/unite-gallery.css' type='text/css' />
+	
+	<link rel='stylesheet' href='<?php bloginfo('stylesheet_directory');?>/assets/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -141,6 +149,9 @@
 								</li>
 								<li <?php echo is_page( 'radioactives' ) || is_page( 'radioactive-en' ) ? 'class="active"' : ''?>>
 									<a href="<?php echo home_url( '/radioactives' ) ?>"><?php echo pll__("Radioactive") ?></a>
+								</li>
+								<li <?php echo is_page( 'news' ) || is_page( 'news-en' ) ? 'class="active"' : ''?>>
+									<a href="<?php echo home_url( '/news' ) ?>"><?php echo pll__("News") ?></a>
 								</li>
 								
 								<!-- <li class="nav-item dropdown active">
